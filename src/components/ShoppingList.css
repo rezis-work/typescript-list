@@ -1,0 +1,28 @@
+.list-heading {
+  font-size: 70px;
+  font-weight: bold;
+  color: #f59f00;
+  margin-bottom: 50px;
+  border: 1px solid #f59f00;
+  display: inline-flex;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.list-parent {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.list-child {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #e67700;
+}
+
+@media (max-width: 1000px) {
+  .list-heading {
+    font-size: 40px;
+    padding: 15px;
+  }
+}
